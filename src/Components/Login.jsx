@@ -1,15 +1,14 @@
 import Bac from "./Lib/img/bac.png"
-import "./Login.css"
 
 function Login() {
     return (
         <>
         <main className="main">
-            <div className=" md:mx-auto ">
+            <div className="container mx-auto">
                 <div className="flex items-center gap-48  max-xl:flex-col max-xl:flex-col">
                         <img className="h-full xl:w-18 h-12 max-xl:w-1/2" src={Bac} alt="Bac" width={720} height={799}/>
 
-                    <div className="flex flex-col max-xl:bg-slate-900 w-full">
+                    <div className="flex flex-col max-xl:bg-slate-900 w-full flex flex-col items-center">
                         <h1 className="text-xl pb-8 decoration-black font-sans font-bold max-xl:text-white">
                         <span className="text-sm font-sans font-normal">Welcome back</span> <br/>
                              Login to your account</h1>
@@ -30,7 +29,7 @@ function Login() {
                                 <a href="none"  className="pl-14 max-xl:text-white">Forgot password?</a>
                             </label>
 
-                            <button type="submit" className="bg-green-600 w-80 h-12 rounded-lg">Log in</button>
+                            <button type="submit plus" className="bg-green-600 w-80 h-12 rounded-lg">Log in</button>
                             <button type="submit" className=" bg-black w-80 h-12 rounded-lg text-white">Or sign-in with google</button>
 
                         </form>
